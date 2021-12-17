@@ -1,74 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        </style>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-</head>
-
-<body>
-<!-- Header -->
-<header class="header">
-    <nav>
-        <ul>
-            <li id="list-item"><a href="projects"></a>Projects</li>
-            <li id="list-item"><a href="resume"></a>Resume</li>
-            <li id="list-item"><a href="contact"></a>Contact</li>
-        </ul>
-    </nav>
-</header>
-
-
-
-<main>
-    <div class="content">
-
-   
-    <!-- Projects -->
-    <div id="projects">
-        <section>
-            <img src="./assets/Project image.png" alt="project image">
-            <h2>Projects</h2>
-            <p>This website is refactored to follow accessibility standards. It ensures that people with disabilities can access  the website using assistive technologies like video captions, screen readers, and braille keyboard.<br><strong>Improvements implemented</strong>
-
-                * Adding semantic HTML elements like header, footer, nav, and aside for better structuring of the website
-                * Implement the logical structure of html tags independent of styling and positioning
-                * Add accessible alt attributes for image tags
-                * Fix heading to follow sequential order
-                * Modfied title to a more descriptive and consice one</p>
-        </section>
-    </div>
     
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <img
+        src="./assets/iman's image.jpeg"
+        alt="developer image"
+        width="50"
+        height="50"
+        class="my-pic"
+      />
+      <nav>
+        <ul>
+          <li id="list-item"><a href="#projects">Projects</a></li>
+          <li id="list-item"><a href="#resume">Resume</a></li>
+          <li id="list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="content">
+      <p>
+        Hello, my name is Iman Mansour. I am web developer. Check out my
+        portfoilo.
+      </p>
+
+      <!-- Projects -->
+      <div id="projects">
+        <section>
+          <img src="./assets/Project image.png" alt="project image" />
+          <h2>Projects</h2>
+          <p>
+            This website is refactored to follow accessibility standards. It
+            ensures that people with disabilities can access the website using
+            assistive technologies like video captions, screen readers, and
+            braille keyboard.<br /><strong>Improvements implemented</strong>
+
+            * Adding semantic HTML elements like header, footer, nav, and aside
+            for better structuring of the website * Implement the logical
+            structure of html tags independent of styling and positioning * Add
+            accessible alt attributes for image tags * Fix heading to follow
+            sequential order * Modfied title to a more descriptive and consice
+            one
+          </p>
+        </section>
+      </div>
+
       <!-- Resume -->
       <div id="resume">
         <section>
-            <img src="" alt="resume ">
-            <h2>Projects</h2>
-            <p>Talk about resume here</p>
-
+          <img src="" alt="resume " />
+          <h2>Projects</h2>
+          <p>Talk about resume here</p>
         </section>
-    </div>
+      </div>
 
       <!-- About me -->
       <div id="contact">
         <section>
-
-            <img src="" alt="about me here">
-            <h2>contact me</h2>
-            <p>Talk about contact me here</p>
+          <img src="" alt="about me here" />
+          <h2>contact me</h2>
+          <p>Talk about contact me here</p>
         </section>
+      </div>
+      <div class="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+      </div>
+      <!-- Footer -->
+      
     </div>
 
-   
-   <!-- Footer -->
-   <footer>
-       <p>Copyright Iman Mansour 2021</p>
-</footer>
-
-</div>
-</main>
-</body>
+    <footer>
+        <p>Created by Iman Mansour &copy; 2021 All rights reserved</p>
+      </footer>
+      
+  </body>
 </html>
