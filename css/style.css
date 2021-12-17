@@ -1,0 +1,43 @@
+/* Universal selector */
+* {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  /* Header style */
+.header {
+    background-color:white;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    float:right;
+
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline;
+     text-align: right;
+     cursor: pointer;
+     font-weight: 400;
+     line-height: 2;
+     margin-right: 15px;
+     color: black
+     
+     
+  }
+
+   a:hover {
+    background: transparent
+  }
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+}
