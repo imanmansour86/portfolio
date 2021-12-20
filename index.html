@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/df54146bae.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-        </style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+    </style>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    
   </head>
 
   <body>
@@ -26,68 +29,123 @@
       <nav>
         <ul>
           <li id="list-item"><a href="#projects">Projects</a></li>
-          <li id="list-item"><a href="#resume">Resume</a></li>
           <li id="list-item"><a href="#contact">Contact</a></li>
+          <li id="list-item">
+            <a href="./assets/Resume.pdf" target="_blank">Resume</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <div id="content">
-      <p>
-        Hello, my name is Iman Mansour. I am web developer. Check out my
-        portfoilo.
-      </p>
-
-      <!-- Projects -->
-      <div id="projects">
-        <section>
-          <img src="./assets/Project image.png" alt="project image" />
-          <h2>Projects</h2>
+    <main>
+      <section>
+        <div class="section-title">
+          About Me i am <span>developer</span>
           <p>
-            This website is refactored to follow accessibility standards. It
-            ensures that people with disabilities can access the website using
-            assistive technologies like video captions, screen readers, and
-            braille keyboard.<br /><strong>Improvements implemented</strong>
-
-            * Adding semantic HTML elements like header, footer, nav, and aside
-            for better structuring of the website * Implement the logical
-            structure of html tags independent of styling and positioning * Add
-            accessible alt attributes for image tags * Fix heading to follow
-            sequential order * Modfied title to a more descriptive and consice
-            one
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+            repellendus eaque aut expedita repellat commodi cupiditate quos rem
+            ipsa, accusamus ea a neque fugiat nam nisi corrupti dicta deleniti
+            beatae. Vero, laboriosam assumenda necessitatibus repudiandae
+            laborum nesciunt ratione quam reprehenderit. Nobis, nihil delectus
+            libero totam nisi corrupti et nulla quos.
           </p>
+        </div>
+      </section>
+      <hr />
+
+      <div class="section-title" id="projects">My Work</div>
+      <div class="second-row-projects">
+        <section class="my-work">
+          <a href="google.com">
+            <img
+              src="assets/Project-1.png"
+              alt="first application"
+              width="800"
+              height="400"
+          /></a>
+          <div class="project-name">Code Refactor</div>
+        </section>
+
+        <section>
+          <img
+            src="assets/Project-1.png"
+            alt="first application"
+            width="400"
+            height="200"
+          />
+          <div class="project-name">Code Refactor</div>
+        </section>
+
+        <section>
+          <a href="google.com"
+            ><img
+              src="assets/Project-1.png"
+              alt="first application"
+              width="400"
+              height="200"
+          /></a>
+
+          <div class="project-name">Code Refactor</div>
+        </section>
+
+        <section>
+          <img
+            src="assets/Project-1.png"
+            alt="first application"
+            width="400"
+            height="200"
+          />
+          <div class="project-name">Code Refactor</div>
+        </section>
+
+        <section>
+          <img
+            src="assets/Project-1.png"
+            alt="first application"
+            width="400"
+            height="200"
+          />
+          <div class="project-name">Code Refactor</div>
+        </section>
+
+        <section>
+          <img
+            src="assets/Project-1.png"
+            alt="first application"
+            width="400"
+            height="200"
+          />
+          <div class="project-name">Code Refactor</div>
         </section>
       </div>
 
-      <!-- Resume -->
-      <div id="resume">
-        <section>
-          <img src="" alt="resume " />
-          <h2>Projects</h2>
-          <p>Talk about resume here</p>
-        </section>
-      </div>
+      <div class="section-title" id="contact">Contact</div>
 
-      <!-- About me -->
-      <div id="contact">
-        <section>
-          <img src="" alt="about me here" />
-          <h2>contact me</h2>
-          <p>Talk about contact me here</p>
-        </section>
-      </div>
-      <div class="container">
-        <div class="item">item1</div>
-        <div class="item">item2</div>
-        <div class="item">item3</div>
-      </div>
-      <!-- Footer -->
-      
-    </div>
+      <section class="contact-card">
+        <div class="contact-icon">
+          <i class="fa">&#xf0e0;</i>
+          imanmansour86@gmail.com
+        </div>
+
+        <div class="phone-numbers">
+          <i class="fas fa-phone-alt"></i>
+          555-555-5555
+        </div>
+
+        <div class="linkedin">
+          <i class="fab fa-linkedin"></i>
+          imanmansour8
+        </div>
+
+        <div class="github">
+          <i class="fab fa-github"></i>
+          imanmansour8
+        </div>
+      </section>
+    </main>
 
     <footer>
-        <p>Created by Iman Mansour &copy; 2021 All rights reserved</p>
-      </footer>
-      
+      <p>Created by Iman Mansour &copy; 2021 All rights reserved</p>
+    </footer>
   </body>
 </html>
