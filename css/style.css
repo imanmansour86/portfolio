@@ -72,23 +72,6 @@ footer {
   padding: 30px;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 100%;
-}
-
-.item {
-  background-color: darkblue;
-  padding: 10px;
-  margin: 10px;
-}
-
-#content {
-  padding: 25px;
-}
-
 .section-title {
   padding: 20px;
   text-align: center;
@@ -130,9 +113,15 @@ hr {
 
 .contact-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 i {
   font-size: 36px;
+}
+
+.first-project {
+  display: flex;
+  justify-content: center;
 }
