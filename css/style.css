@@ -46,7 +46,7 @@ li {
   color: black;
 }
 
-a {
+.links-header {
   text-decoration: none;
   color: #d4cfcb;
 }
@@ -110,8 +110,7 @@ footer {
   padding: 10px;
   font-size: larger;
   font-weight: bolder;
-  top: -80px;
-  left: 400px;
+  top: -60px;
   position: relative;
 }
 
@@ -125,7 +124,6 @@ footer {
   font-size: larger;
   font-weight: bolder;
   top: -60px;
-  left: Z0p;
   position: relative;
 }
 
