@@ -4,7 +4,7 @@ My Portfolio
 
 ## Introduction
 
-This website is created to show My Portfolio. It contains sections about projects completed and projects coming soon, as well as contact information. The website is desgiend using semantic html elements and flexbox.
+This website is created to show My Portfolio. It contains sections about projects completed and projects coming soon, as well as contact information. The website is designed using semantic html elements and flexbox.
 
 ## Portfolio layout
 
