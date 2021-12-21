@@ -4,21 +4,21 @@ My Portfolio
 
 ## Introduction
 
-This website is created to show My Portfolio. It contains sections about projects completed and projects coming soon.
+This website is created to show My Portfolio. It contains sections about projects completed and projects coming soon, as well as contact information. The website is desgiend using semantic html elements and flexbox.
 
-## Improvements implemented
+## Portfolio layout
 
-- Adding semantic HTML elements like header, footer, nav, and aside for better structuring of the website
-- Implement the logical structure of html tags independent of styling and positioning
-- Add accessible alt attributes for image tags
-- Fix heading to follow sequential order
-- Modfied title to a more descriptive and consice one
+- When the potrfoli is loaded the header appears with a photo, name and a navigation bar with link to the projects, resume and contact.
+- In the body of the website, the projects section is shown. The first project image appears larger in size than the rest of the images.
+- When clickng on the images of the project, a link opens that directs to the deployed application.
+- The footer section shows contact information for phone, email, linkedin and github accounts. Clicking on a certain icon will open the respective website.
+- The portfoil is designed with a responsive layout that adapts to viewport on smaller devices.
 
 ## Screenshot of the portfolio
 
 A preview screenshot of the portfolio:
 
-![image](https://user-images.githubusercontent.com/47014539/146128412-422f3e9f-6be2-4dd3-820e-ff341b1c4af0.png)
+![image](https://user-images.githubusercontent.com/47014539/146881127-0b4452a0-14b4-4b31-831b-075ad348365d.png)
 
 ## Technologies Used
 
@@ -29,15 +29,15 @@ A preview screenshot of the portfolio:
 
 ## Links
 
-Use the following links to check the modified website:
+Use the following links to check the portfolio
 
-- [Deployed application](https://imanmansour86.github.io/horiseon-code-refactor/)
+- [Deployed application](ttps://imanmansour86.github.io/portfolio/)
 
-- [GitHub](https://github.com/imanmansour86/horiseon-code-refactor)
-
-- [Screenshot of website](https://postimg.cc/9rRBdbkG)
+- [Screenshot of website](https://postimg.cc/DWk6sRz8)
 
 ## Author
+
+Iman Mansour
 
 - [Github](https://github.com/imanmansour86)
 - [LinkedIn](https://www.linkedin.com/in/iman-mansour-51391515/)
