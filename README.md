@@ -8,11 +8,11 @@ This website is created to show My Portfolio. It contains sections about project
 
 ## Portfolio layout
 
-- When the potrfoli is loaded the header appears with a photo, name and a navigation bar with link to the projects, resume and contact.
+- When the potrfolio is loaded, the header appears with a photo, name and a navigation bar with links to the projects, resume and contact.
 - In the body of the website, the projects section is shown. The first project image appears larger in size than the rest of the images.
 - When clickng on the images of the project, a link opens that directs to the deployed application.
 - The footer section shows contact information for phone, email, linkedin and github accounts. Clicking on a certain icon will open the respective website.
-- The portfoil is designed with a responsive layout that adapts to viewport on smaller devices.
+- The portfoilo is designed with a responsive layout that adapts to viewport on smaller devices.
 
 ## Screenshot of the portfolio
 
@@ -31,7 +31,7 @@ A preview screenshot of the portfolio:
 
 Use the following links to check the portfolio
 
-- [Deployed application](ttps://imanmansour86.github.io/portfolio/)
+- [Deployed application](https://imanmansour86.github.io/portfolio/)
 
 - [Screenshot of website](https://postimg.cc/DWk6sRz8)
 
