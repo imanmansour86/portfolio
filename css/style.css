@@ -52,17 +52,37 @@ a {
 }
 
 /* Remove purple color from link */
+.links-header:hover {
+  text-decoration: none;
+  color: #d4cfcb;
+}
+.links-header:focus {
+  text-decoration: none;
+  color: #d4cfcb;
+}
+.links-header:active {
+  text-decoration: none;
+  color: #d4cfcb;
+}
+
 a:hover {
   text-decoration: none;
-  color: #d4cfcb;
+  color: gray;
 }
-a:focus {
+
+a:foucs {
   text-decoration: none;
-  color: #d4cfcb;
+  color: black;
 }
+
 a:active {
   text-decoration: none;
-  color: #d4cfcb;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
@@ -150,10 +170,10 @@ i {
 }
 
 .footer-section-title {
-  padding: 30px;
   text-align: center;
   font-size: 32px;
   line-height: 1.125;
   font-weight: 600;
-  letter-spacing: 0.004em;
+  letter-spacing: 0.004px;
+  padding-bottom: 20px;
 }
