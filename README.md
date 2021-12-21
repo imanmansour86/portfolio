@@ -20,12 +20,14 @@ A preview screenshot of the portfolio:
 
 ![image](https://user-images.githubusercontent.com/47014539/146881127-0b4452a0-14b4-4b31-831b-075ad348365d.png)
 
-## Technologies Used
+## Technologies/Resources Used
 
 - HTML - used to create elements on the DOM
 - CSS - styles html elements on page
 - Git - version control system to track changes to source code
 - GitHub - hosts repository that can be deployed to GitHub Pages
+- [W3schools](https://www.w3schools.com)
+- [stackoverflow](https://stackoverflow.com)
 
 ## Links
 
